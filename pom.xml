@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 
-       Copyright 2010-2019 the original author or authors.
+       Copyright 2010-2025 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -163,6 +163,24 @@
       <version>${spring.version}</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest</artifactId>
+          <version>3.0</version>
+          <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+          <version>4.0.1</version>
+          <scope>compile</scope>
+      </dependency>
+      <dependency>
+          <groupId>com.diffblue.cover</groupId>
+          <artifactId>cover-annotations</artifactId>
+          <version>1.7.0</version>
+          <scope>provided</scope>
+      </dependency>
   </dependencies>
 
   <build>
@@ -207,6 +225,11 @@
             </daemon>
           </configuration>
         </plugin>
+        <plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>0.8.8</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
@@ -217,7 +240,7 @@
     <tomcat.major-version />
     <tomcat.version />
 
-    <surefire.version>3.0.0-M3</surefire.version>
+    <surefire.version>3.0.0-M7</surefire.version>
     <cargo-maven2-plugin.version>1.7.7</cargo-maven2-plugin.version>
     <clirr.comparisonVersion>6.0.2</clirr.comparisonVersion>
 
@@ -237,6 +260,7 @@
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M7</version>
               <configuration>
                 <includes>
                   <include>**/*IT.class</include>
@@ -246,6 +270,7 @@
             <plugin>
               <groupId>org.jacoco</groupId>
               <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.8</version>
               <configuration>
                 <skip>true</skip>
               </configuration>

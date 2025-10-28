@@ -1,0 +1,3466 @@
+{
+  "meta" : {
+    "reportVersion" : "2.8"
+  },
+  "run" : {
+    "version" : "2025.10.02-8f75ba9-licensed",
+    "creationTimestamp" : "2025-10-28T10:19:18.903Z",
+    "command" : "dcover coverage-reports upload http://localhost:8080",
+    "totalTime" : 55.074,
+    "environmentDetectionTime" : 15.548,
+    "indexingTime" : 0.0,
+    "entryPointsTime" : 0.0,
+    "generationTime" : 0.0,
+    "timeToFirstTest" : 55.077,
+    "timeToLastTest" : 55.077,
+    "indexQueryTime" : 0.0,
+    "verificationTime" : 0.0,
+    "validationTime" : 0.0
+  },
+  "codes" : {
+    "T000" : "Method eligible for test creation",
+    "T001" : "Trivial getter",
+    "T002" : "Trivial setter",
+    "T003" : "Private method",
+    "T005" : "Trivial constructor",
+    "T010" : "Abstract or interface method",
+    "T012" : "Synthetic method",
+    "T020" : "Other trivial method"
+  },
+  "summary" : {
+    "classesCount" : 24,
+    "methodsCount" : 310,
+    "cumulativeDiffblueTestCount" : 107,
+    "cumulativeManualTestCount" : 53,
+    "completeTestCount" : 0,
+    "incompleteTestCount" : 0,
+    "skeletonTestCount" : 0,
+    "totalPhysicalLineCount" : 1409,
+    "perMethodTestability" : {
+      "T000" : 76,
+      "T001" : 98,
+      "T002" : 84,
+      "T003" : 2,
+      "T005" : 13,
+      "T010" : 26,
+      "T012" : 8,
+      "T020" : 3
+    },
+    "perMethodOutcome" : {
+      "T000" : 76,
+      "T001" : 98,
+      "T002" : 84,
+      "T003" : 2,
+      "T005" : 13,
+      "T010" : 26,
+      "T012" : 8,
+      "T020" : 3
+    }
+  },
+  "classes" : {
+    "org.mybatis.jpetstore.domain.Account" : {
+      "methodsCount" : 37,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T001" : 18,
+        "T002" : 18,
+        "T005" : 1
+      },
+      "perMethodOutcome" : {
+        "T001" : 18,
+        "T002" : 18,
+        "T005" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.Cart" : {
+      "methodsCount" : 12,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 10,
+        "T001" : 1,
+        "T012" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 10,
+        "T001" : 1,
+        "T012" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.CartItem" : {
+      "methodsCount" : 11,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 3,
+        "T001" : 4,
+        "T002" : 1,
+        "T003" : 1,
+        "T005" : 1,
+        "T012" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 3,
+        "T001" : 4,
+        "T002" : 1,
+        "T003" : 1,
+        "T005" : 1,
+        "T012" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.Category" : {
+      "methodsCount" : 8,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 1,
+        "T001" : 3,
+        "T002" : 2,
+        "T005" : 1,
+        "T020" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 1,
+        "T001" : 3,
+        "T002" : 2,
+        "T005" : 1,
+        "T020" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.Item" : {
+      "methodsCount" : 26,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 1,
+        "T001" : 12,
+        "T002" : 11,
+        "T005" : 1,
+        "T020" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 1,
+        "T001" : 12,
+        "T002" : 11,
+        "T005" : 1,
+        "T020" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.LineItem" : {
+      "methodsCount" : 17,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 3,
+        "T001" : 7,
+        "T002" : 4,
+        "T003" : 1,
+        "T005" : 1,
+        "T012" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 3,
+        "T001" : 7,
+        "T002" : 4,
+        "T003" : 1,
+        "T005" : 1,
+        "T012" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.Order" : {
+      "methodsCount" : 58,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 3,
+        "T001" : 27,
+        "T002" : 27,
+        "T005" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 3,
+        "T001" : 27,
+        "T002" : 27,
+        "T005" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.Product" : {
+      "methodsCount" : 10,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 1,
+        "T001" : 4,
+        "T002" : 3,
+        "T005" : 1,
+        "T020" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 1,
+        "T001" : 4,
+        "T002" : 3,
+        "T005" : 1,
+        "T020" : 1
+      }
+    },
+    "org.mybatis.jpetstore.domain.Sequence" : {
+      "methodsCount" : 6,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T001" : 2,
+        "T002" : 2,
+        "T005" : 2
+      },
+      "perMethodOutcome" : {
+        "T001" : 2,
+        "T002" : 2,
+        "T005" : 2
+      }
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper" : {
+      "methodsCount" : 8,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T010" : 8
+      },
+      "perMethodOutcome" : {
+        "T010" : 8
+      }
+    },
+    "org.mybatis.jpetstore.mapper.CategoryMapper" : {
+      "methodsCount" : 2,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T010" : 2
+      },
+      "perMethodOutcome" : {
+        "T010" : 2
+      }
+    },
+    "org.mybatis.jpetstore.mapper.ItemMapper" : {
+      "methodsCount" : 4,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T010" : 4
+      },
+      "perMethodOutcome" : {
+        "T010" : 4
+      }
+    },
+    "org.mybatis.jpetstore.mapper.LineItemMapper" : {
+      "methodsCount" : 2,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T010" : 2
+      },
+      "perMethodOutcome" : {
+        "T010" : 2
+      }
+    },
+    "org.mybatis.jpetstore.mapper.OrderMapper" : {
+      "methodsCount" : 4,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T010" : 4
+      },
+      "perMethodOutcome" : {
+        "T010" : 4
+      }
+    },
+    "org.mybatis.jpetstore.mapper.ProductMapper" : {
+      "methodsCount" : 3,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T010" : 3
+      },
+      "perMethodOutcome" : {
+        "T010" : 3
+      }
+    },
+    "org.mybatis.jpetstore.mapper.SequenceMapper" : {
+      "methodsCount" : 2,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T010" : 2
+      },
+      "perMethodOutcome" : {
+        "T010" : 2
+      }
+    },
+    "org.mybatis.jpetstore.service.AccountService" : {
+      "methodsCount" : 7,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 4,
+        "T005" : 1,
+        "T012" : 2
+      },
+      "perMethodOutcome" : {
+        "T000" : 4,
+        "T005" : 1,
+        "T012" : 2
+      }
+    },
+    "org.mybatis.jpetstore.service.CatalogService" : {
+      "methodsCount" : 9,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 8,
+        "T005" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 8,
+        "T005" : 1
+      }
+    },
+    "org.mybatis.jpetstore.service.OrderService" : {
+      "methodsCount" : 8,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 4,
+        "T005" : 1,
+        "T012" : 3
+      },
+      "perMethodOutcome" : {
+        "T000" : 4,
+        "T005" : 1,
+        "T012" : 3
+      }
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean" : {
+      "methodsCount" : 4,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 3,
+        "T010" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 3,
+        "T010" : 1
+      }
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean" : {
+      "methodsCount" : 19,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 14,
+        "T001" : 4,
+        "T002" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 14,
+        "T001" : 4,
+        "T002" : 1
+      }
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean" : {
+      "methodsCount" : 10,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 7,
+        "T001" : 1,
+        "T002" : 2
+      },
+      "perMethodOutcome" : {
+        "T000" : 7,
+        "T001" : 1,
+        "T002" : 2
+      }
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean" : {
+      "methodsCount" : 27,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 6,
+        "T001" : 10,
+        "T002" : 10,
+        "T005" : 1
+      },
+      "perMethodOutcome" : {
+        "T000" : 6,
+        "T001" : 10,
+        "T002" : 10,
+        "T005" : 1
+      }
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean" : {
+      "methodsCount" : 16,
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : {
+        "T000" : 8,
+        "T001" : 5,
+        "T002" : 3
+      },
+      "perMethodOutcome" : {
+        "T000" : 8,
+        "T001" : 5,
+        "T002" : 3
+      }
+    }
+  },
+  "methods" : {
+    "org.mybatis.jpetstore.domain.Account.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        27
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getAddress1:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        101
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getAddress2:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        109
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getBannerName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        189
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getCity:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        117
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getCountry:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        141
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getEmail:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        67
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getFavouriteCategoryId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        157
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getFirstName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        75
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getLanguagePreference:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        165
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getLastName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        84
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getPassword:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        59
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getPhone:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        149
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getState:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        125
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getStatus:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        93
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getUsername:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        51
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.getZip:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        133
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.isBannerOption:()Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        181
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.isListOption:()Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        173
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setAddress1:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        105,
+        106
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setAddress2:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        113,
+        114
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setBannerName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        193,
+        194
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setBannerOption:(Z)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        185,
+        186
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setCity:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        121,
+        122
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setCountry:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        145,
+        146
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setEmail:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        71,
+        72
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setFavouriteCategoryId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        161,
+        162
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setFirstName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        80,
+        81
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setLanguagePreference:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        169,
+        170
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setLastName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        89,
+        90
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setListOption:(Z)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        177,
+        178
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setPassword:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        63,
+        64
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setPhone:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        153,
+        154
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setState:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        129,
+        130
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setStatus:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        97,
+        98
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setUsername:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        55,
+        56
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Account.setZip:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        137,
+        138
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        32,
+        36,
+        37
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.addItem:(Lorg/mybatis/jpetstore/domain/Item;Z)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        77,
+        78
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.containsItemId:(Ljava/lang/String;)Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        56
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.getAllCartItems:()Ljava/util/Iterator;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        52
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.getCartItemList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        44
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.getCartItems:()Ljava/util/Iterator;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        40
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.getNumberOfItems:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        48
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.getSubTotal:()Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        119,
+        120,
+        121,
+        119
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.incrementQuantityByItemId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        104,
+        105,
+        106
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.lambda$getSubTotal$0:(Lorg/mybatis/jpetstore/domain/CartItem;)Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        120
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.removeItemById:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Item;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        88,
+        89,
+        90,
+        92,
+        93
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Cart.setQuantityByItemId:(Ljava/lang/String;I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        109,
+        110,
+        111
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        27
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.calculateTotal:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T003",
+      "perMethodOutcome" : "T003",
+      "lineNumbers" : [
+        72,
+        73,
+        74
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.getItem:()Lorg/mybatis/jpetstore/domain/Item;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        49
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.getQuantity:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        58
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.getTotal:()Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        45
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.incrementQuantity:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        67,
+        68,
+        69
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.isInStock:()Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        37
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.lambda$calculateTotal$0:(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        72
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.setInStock:(Z)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        41,
+        42
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.setItem:(Lorg/mybatis/jpetstore/domain/Item;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        53,
+        54,
+        55
+      ]
+    },
+    "org.mybatis.jpetstore.domain.CartItem.setQuantity:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        62,
+        63,
+        64
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        25
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.getCategoryId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        34
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.getDescription:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        50
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.getName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        42
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.setCategoryId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        38,
+        39
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.setDescription:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        54,
+        55
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.setName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        46,
+        47
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Category.toString:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T020",
+      "perMethodOutcome" : "T020",
+      "lineNumbers" : [
+        59
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        26
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getAttribute1:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        101
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getAttribute2:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        109
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getAttribute3:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        117
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getAttribute4:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        125
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getAttribute5:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        133
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getItemId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        45
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getListPrice:()Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        77
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getProduct:()Lorg/mybatis/jpetstore/domain/Product;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        61
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getQuantity:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        53
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getStatus:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        93
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getSupplierId:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        69
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.getUnitCost:()Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        85
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setAttribute1:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        105,
+        106
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setAttribute2:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        113,
+        114
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setAttribute3:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        121,
+        122
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setAttribute4:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        129,
+        130
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setAttribute5:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        137,
+        138
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setItemId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        49,
+        50
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setListPrice:(Ljava/math/BigDecimal;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        81,
+        82
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setProduct:(Lorg/mybatis/jpetstore/domain/Product;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        65,
+        66
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setQuantity:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        57,
+        58
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setStatus:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        97,
+        98
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setSupplierId:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        73,
+        74
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.setUnitCost:(Ljava/math/BigDecimal;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        89,
+        90
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Item.toString:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T020",
+      "perMethodOutcome" : "T020",
+      "lineNumbers" : [
+        142
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        39,
+        40
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.<init>:(ILorg/mybatis/jpetstore/domain/CartItem;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.calculateTotal:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T003",
+      "perMethodOutcome" : "T003",
+      "lineNumbers" : [
+        114,
+        115,
+        116
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.getItem:()Lorg/mybatis/jpetstore/domain/Item;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        96
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.getItemId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        76
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.getLineNumber:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        68
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.getOrderId:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        60
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.getQuantity:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        105
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.getTotal:()Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        92
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.getUnitPrice:()Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        84
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.lambda$calculateTotal$0:(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        114
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.setItem:(Lorg/mybatis/jpetstore/domain/Item;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        100,
+        101,
+        102
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.setItemId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        80,
+        81
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.setLineNumber:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        72,
+        73
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.setOrderId:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        64,
+        65
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.setQuantity:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        109,
+        110,
+        111
+      ]
+    },
+    "org.mybatis.jpetstore.domain.LineItem.setUnitPrice:(Ljava/math/BigDecimal;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        88,
+        89
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        30,
+        60
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.addLineItem:(Lorg/mybatis/jpetstore/domain/CartItem;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        327,
+        328,
+        329
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.addLineItem:(Lorg/mybatis/jpetstore/domain/LineItem;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        332,
+        333
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillAddress1:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        135
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillAddress2:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        143
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillCity:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        151
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillCountry:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        175
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillState:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        159
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillToFirstName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        199
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillToLastName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        207
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getBillZip:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        167
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getCardType:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        247
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getCourier:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        183
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getCreditCard:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        231
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getExpiryDate:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        239
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getLineItems:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        275
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getLocale:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        255
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getOrderDate:()Ljava/util/Date;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        79
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getOrderId:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        63
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipAddress1:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        87
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipAddress2:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        95
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipCity:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        103
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipCountry:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        127
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipState:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        111
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipToFirstName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        215
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipToLastName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        223
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getShipZip:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        119
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getStatus:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        263
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getTotalPrice:()Ljava/math/BigDecimal;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        191
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.getUsername:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        71
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.initOrder:(Lorg/mybatis/jpetstore/domain/Account;Lorg/mybatis/jpetstore/domain/Cart;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        288,
+        289,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        309,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        318,
+        319,
+        320,
+        321,
+        322,
+        324
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillAddress1:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        139,
+        140
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillAddress2:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        147,
+        148
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillCity:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        155,
+        156
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillCountry:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        179,
+        180
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillState:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        163,
+        164
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillToFirstName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        203,
+        204
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillToLastName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        211,
+        212
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setBillZip:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        171,
+        172
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setCardType:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        251,
+        252
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setCourier:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        187,
+        188
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setCreditCard:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        235,
+        236
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setExpiryDate:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        243,
+        244
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setLineItems:(Ljava/util/List;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        271,
+        272
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setLocale:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        259,
+        260
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setOrderDate:(Ljava/util/Date;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        83,
+        84
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setOrderId:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        67,
+        68
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipAddress1:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        91,
+        92
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipAddress2:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        99,
+        100
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipCity:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        107,
+        108
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipCountry:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        131,
+        132
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipState:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        115,
+        116
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipToFirstName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        219,
+        220
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipToLastName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        227,
+        228
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setShipZip:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        123,
+        124
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setStatus:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        267,
+        268
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setTotalPrice:(Ljava/math/BigDecimal;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        195,
+        196
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Order.setUsername:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        75,
+        76
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        25
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.getCategoryId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        43
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.getDescription:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        59
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.getName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        51
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.getProductId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        35
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.setCategoryId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        47,
+        48
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.setDescription:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        63,
+        64
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.setName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        55,
+        56
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.setProductId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        39,
+        40
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Product.toString:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T020",
+      "perMethodOutcome" : "T020",
+      "lineNumbers" : [
+        68
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Sequence.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        32,
+        33
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Sequence.<init>:(Ljava/lang/String;I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Sequence.getName:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        41
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Sequence.getNextId:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        49
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Sequence.setName:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        45,
+        46
+      ]
+    },
+    "org.mybatis.jpetstore.domain.Sequence.setNextId:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        53,
+        54
+      ]
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.getAccountByUsername:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Account;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.getAccountByUsernameAndPassword:(Ljava/lang/String;Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Account;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.insertAccount:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.insertProfile:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.insertSignon:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.updateAccount:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.updateProfile:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.AccountMapper.updateSignon:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.CategoryMapper.getCategory:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Category;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.CategoryMapper.getCategoryList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.ItemMapper.getInventoryQuantity:(Ljava/lang/String;)I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.ItemMapper.getItem:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Item;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.ItemMapper.getItemListByProduct:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.ItemMapper.updateInventoryQuantity:(Ljava/util/Map;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.LineItemMapper.getLineItemsByOrderId:(I)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.LineItemMapper.insertLineItem:(Lorg/mybatis/jpetstore/domain/LineItem;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.OrderMapper.getOrder:(I)Lorg/mybatis/jpetstore/domain/Order;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.OrderMapper.getOrdersByUsername:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.OrderMapper.insertOrder:(Lorg/mybatis/jpetstore/domain/Order;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.OrderMapper.insertOrderStatus:(Lorg/mybatis/jpetstore/domain/Order;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.ProductMapper.getProduct:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Product;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.ProductMapper.getProductListByCategory:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.ProductMapper.searchProductList:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.SequenceMapper.getSequence:(Lorg/mybatis/jpetstore/domain/Sequence;)Lorg/mybatis/jpetstore/domain/Sequence;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.mapper.SequenceMapper.updateSequence:(Lorg/mybatis/jpetstore/domain/Sequence;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010"
+    },
+    "org.mybatis.jpetstore.service.AccountService.<init>:(Lorg/mybatis/jpetstore/mapper/AccountMapper;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        35,
+        36,
+        37
+      ]
+    },
+    "org.mybatis.jpetstore.service.AccountService.getAccount:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Account;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        40
+      ]
+    },
+    "org.mybatis.jpetstore.service.AccountService.getAccount:(Ljava/lang/String;Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Account;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        44
+      ]
+    },
+    "org.mybatis.jpetstore.service.AccountService.insertAccount:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    "org.mybatis.jpetstore.service.AccountService.lambda$updateAccount$0:(Ljava/lang/String;)Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        71
+      ]
+    },
+    "org.mybatis.jpetstore.service.AccountService.lambda$updateAccount$1:(Lorg/mybatis/jpetstore/domain/Account;Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        72
+      ]
+    },
+    "org.mybatis.jpetstore.service.AccountService.updateAccount:(Lorg/mybatis/jpetstore/domain/Account;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        68,
+        69,
+        71,
+        72,
+        73
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.<init>:(Lorg/mybatis/jpetstore/mapper/CategoryMapper;Lorg/mybatis/jpetstore/mapper/ItemMapper;Lorg/mybatis/jpetstore/mapper/ProductMapper;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.getCategory:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Category;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        52
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.getCategoryList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        48
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.getItem:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Item;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        83
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.getItemListByProduct:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        79
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.getProduct:(Ljava/lang/String;)Lorg/mybatis/jpetstore/domain/Product;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        56
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.getProductListByCategory:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        60
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.isItemInStock:(Ljava/lang/String;)Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        87
+      ]
+    },
+    "org.mybatis.jpetstore.service.CatalogService.searchProductList:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        71,
+        72,
+        73,
+        72,
+        75
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.<init>:(Lorg/mybatis/jpetstore/mapper/ItemMapper;Lorg/mybatis/jpetstore/mapper/OrderMapper;Lorg/mybatis/jpetstore/mapper/SequenceMapper;Lorg/mybatis/jpetstore/mapper/LineItemMapper;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.getNextId:(Ljava/lang/String;)I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        119,
+        120,
+        121,
+        124,
+        125,
+        126
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.getOrder:(I)Lorg/mybatis/jpetstore/domain/Order;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        88,
+        89,
+        91,
+        97
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.getOrdersByUsername:(Ljava/lang/String;)Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        108
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.insertOrder:(Lorg/mybatis/jpetstore/domain/Order;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        61,
+        62,
+        71,
+        72,
+        73,
+        77
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.lambda$getOrder$2:(Lorg/mybatis/jpetstore/domain/LineItem;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        92,
+        93,
+        94,
+        95
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.lambda$insertOrder$0:(Lorg/mybatis/jpetstore/domain/LineItem;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    "org.mybatis.jpetstore.service.OrderService.lambda$insertOrder$1:(Lorg/mybatis/jpetstore/domain/Order;Lorg/mybatis/jpetstore/domain/LineItem;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T012",
+      "perMethodOutcome" : "T012",
+      "lineNumbers" : [
+        74,
+        75,
+        76
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T010",
+      "perMethodOutcome" : "T010",
+      "lineNumbers" : [
+        29
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean.getContext:()Lnet/sourceforge/stripes/action/ActionBeanContext;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        43
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean.setContext:(Lnet/sourceforge/stripes/action/ActionBeanContext;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        48,
+        49
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AbstractActionBean.setMessage:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        38,
+        39
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        43,
+        59
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.clear:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        203,
+        204,
+        205,
+        206
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.editAccount:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        138,
+        139,
+        140,
+        141
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.editAccountForm:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        129
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.getAccount:()Lorg/mybatis/jpetstore/domain/Account;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        69
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.getCategories:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        103
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.getLanguages:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        99
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.getMyList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        91
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.getPassword:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        82
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.getUsername:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        73
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.isAuthenticated:()Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        196
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.newAccount:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        116,
+        117,
+        118,
+        119,
+        120
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.newAccountForm:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        107
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.setMyList:(Ljava/util/List;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        95,
+        96
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.setPassword:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        87,
+        88
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.setUsername:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        78,
+        79
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.signoff:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        185,
+        186,
+        187
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.signon:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        169,
+        170,
+        171,
+        172,
+        174,
+        175
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.AccountActionBean.signonForm:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        151
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        38,
+        48
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.addItemToCart:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        69,
+        70,
+        75,
+        76,
+        77,
+        80
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.checkOut:()Lnet/sourceforge/stripes/action/ForwardResolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        131
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.clear:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        135,
+        136,
+        137
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.getCart:()Lorg/mybatis/jpetstore/domain/Cart;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        52
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.removeItemFromCart:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        90,
+        92,
+        93,
+        94,
+        96
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.setCart:(Lorg/mybatis/jpetstore/domain/Cart;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        56,
+        57
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.setWorkingItemId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        60,
+        61
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.updateCartQuantities:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        106,
+        108,
+        109,
+        110,
+        111,
+        113,
+        114,
+        115,
+        116,
+        120,
+        118,
+        121,
+        123
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CartActionBean.viewCart:()Lnet/sourceforge/stripes/action/ForwardResolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        127
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T005",
+      "perMethodOutcome" : "T005",
+      "lineNumbers" : [
+        36
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.clear:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        204,
+        206,
+        207,
+        208,
+        210,
+        211,
+        212,
+        214,
+        215,
+        216,
+        217
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getCategory:()Lorg/mybatis/jpetstore/domain/Category;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        96
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getCategoryId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        72
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getCategoryList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        120
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getItem:()Lorg/mybatis/jpetstore/domain/Item;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        112
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getItemId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        88
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getItemList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        136
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getKeyword:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        64
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getProduct:()Lorg/mybatis/jpetstore/domain/Product;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        104
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getProductId:()Ljava/lang/String;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        80
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.getProductList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        128
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.searchProducts:()Lnet/sourceforge/stripes/action/ForwardResolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        191,
+        192,
+        193,
+        195,
+        196
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setCategory:(Lorg/mybatis/jpetstore/domain/Category;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        100,
+        101
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setCategoryId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        76,
+        77
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setCategoryList:(Ljava/util/List;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        124,
+        125
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setItem:(Lorg/mybatis/jpetstore/domain/Item;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        116,
+        117
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setItemId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        92,
+        93
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setItemList:(Ljava/util/List;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        140,
+        141
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setKeyword:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        68,
+        69
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setProduct:(Lorg/mybatis/jpetstore/domain/Product;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        108,
+        109
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setProductId:(Ljava/lang/String;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        84,
+        85
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.setProductList:(Ljava/util/List;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        132,
+        133
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.viewCategory:()Lnet/sourceforge/stripes/action/ForwardResolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        154,
+        155,
+        156,
+        158
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.viewItem:()Lnet/sourceforge/stripes/action/ForwardResolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        180,
+        181,
+        182
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.viewMain:()Lnet/sourceforge/stripes/action/ForwardResolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        145
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.CatalogActionBean.viewProduct:()Lnet/sourceforge/stripes/action/ForwardResolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        167,
+        168,
+        169,
+        171
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.<init>:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        38,
+        53
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.clear:()V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        191,
+        192,
+        193,
+        194,
+        195
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.getCreditCardTypes:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        95
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.getOrder:()Lorg/mybatis/jpetstore/domain/Order;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        71
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.getOrderId:()I" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        63
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.getOrderList:()Ljava/util/List;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        99
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.isConfirmed:()Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        87
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.isShippingAddressRequired:()Z" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T001",
+      "perMethodOutcome" : "T001",
+      "lineNumbers" : [
+        79
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.listOrders:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        108,
+        109,
+        110,
+        111
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.newOrder:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        143,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        152,
+        154,
+        155,
+        157,
+        159,
+        161,
+        162
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.newOrderForm:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        120,
+        121,
+        122,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        132,
+        133
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.setConfirmed:(Z)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        91,
+        92
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.setOrder:(Lorg/mybatis/jpetstore/domain/Order;)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        75,
+        76
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.setOrderId:(I)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        67,
+        68
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.setShippingAddressRequired:(Z)V" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T002",
+      "perMethodOutcome" : "T002",
+      "lineNumbers" : [
+        83,
+        84
+      ]
+    },
+    "org.mybatis.jpetstore.web.actions.OrderActionBean.viewOrder:()Lnet/sourceforge/stripes/action/Resolution;" : {
+      "completeTestCount" : 0,
+      "incompleteTestCount" : 0,
+      "perMethodTestability" : "T000",
+      "perMethodOutcome" : "T000",
+      "lineNumbers" : [
+        172,
+        174,
+        176,
+        178,
+        179,
+        181,
+        182,
+        183
+      ]
+    }
+  },
+  "validationMetrics" : { },
+  "outputCodes" : [ ]
+}

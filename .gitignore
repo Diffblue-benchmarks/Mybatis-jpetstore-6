@@ -6,4 +6,3 @@
 *.iml
 /build
 .mvn/wrapper/maven-wrapper.jar
-./cover-reports.log
